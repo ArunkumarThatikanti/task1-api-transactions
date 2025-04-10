@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ApiTransactions" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Primary brand colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+
+        <!-- Background and surface -->
+        <item name="android:colorBackground">@color/colorBackground</item>
+<!--        <item name="colorBackground">@color/colorBackground</item>-->
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+
+        <!-- Secondary -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+    </style>
+
+    <style name="Theme.ApiTransactions" parent="Base.Theme.ApiTransactions" />
+</resources>
